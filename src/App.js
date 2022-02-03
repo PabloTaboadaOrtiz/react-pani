@@ -1,6 +1,13 @@
 import React from 'react';
 import './App.css';
-import CarouselComponent from "./component/carousel.js";
+import Peliculas from "./component/peliculas.js";
+import Cortos from "./component/cortos.js";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 import SideBar from "./component/sidebar";
 import { SocialIcon } from 'react-social-icons';
 
@@ -12,23 +19,24 @@ function App() {
         <div id="page-wrap">
         </div>
       </header>
-      <div className="content">
-        <div className="tittle"></div>
-        <div id="film">
-            <div className="caratula"></div>
-            <div className="sinopsis"></div>
+      <Router>
+        <div>
+          {/* A <Switch> looks through its children <Route>s and
+              renders the first one that matches the current URL. */}
+          <Routes>
+            <Route path="/" element={<Peliculas></Peliculas>}>
+            </Route>
+            <Route path="/cortos" element={<Cortos></Cortos>}>
+            </Route>
+            {/* <Route path="/users">
+              <Users />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route> */}
+          </Routes>
         </div>
-        <div id="pepe">
-          <CarouselComponent />
-        </div>
-        <div class="film-container">
-          <div className="film_tittle"></div>
-          <div id="jose">
-            <iframe width="80%" height="590" src="https://www.youtube.com/embed/purCfHQ5APY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-
-      </div>
+      </Router>
       <footer>
         <div className="social-icon">
           <SocialIcon url="https://www.instagram.com/tabulands2020/"></SocialIcon>

@@ -11,12 +11,12 @@ body {
 }
 header {
   height: 200px;
-  -webkit-transform: translate3d(0, 0, 0);
   background-color: black;
 }
 
-.content {
+.content_corto {
   position: relative;
+  background-color: black;
 }
 
 #page-wrap {
@@ -122,6 +122,23 @@ header {
     padding-left: 5%;
     padding-right: 5%;
 }
+
+.cortos_card {
+  position: relative;
+  display: flex;    /* background: red; */
+  height: 350px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #cbcbcb;
+}
+.cortos_card_1 {
+  position: relative;
+  display: flex;    /* background: red; */
+  height: 350px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #949484;
+}
 .caratula {
     background-image: url("../public/CARATULA.png");
     background-size: 100% 100%;
@@ -130,6 +147,41 @@ header {
     /* background-size: 30% 30%; */
 
     /* background: black; */
+}
+.caratula_corto {
+  background-image: url("../public/CARATULA1.png");
+  background-size: 100% 100%;
+  width: 45%;
+  height: 350px;
+}
+.caratula_corto_2 {
+  background-image: url("../public/CARATULA2.png");
+  background-size: 100% 100%;
+  width: 45%;
+  height: 350px;
+}
+.caratula_corto_3 {
+  background-image: url("../public/CARATULA3.png");
+  background-size: 100% 100%;
+  width: 45%;
+  height: 350px;
+}
+.caratula_corto_4 {
+  background-image: url("../public/CARATULA4.png");
+  background-size: 100% 100%;
+  width: 45%;
+  height: 350px;
+}
+.caratula_corto_5 {
+  background-image: url("../public/CARATULA5.png");
+  background-size: 100% 100%;
+  width: 45%;
+  height: 350px;
+}
+.video_corto {
+  height: 300px;
+  width: 55%;
+  /* background-color: #cbcbcb; */
 }
 .sinopsis {
     background-image: url("../public/SINOPSIS.png");
@@ -154,12 +206,23 @@ header {
     display: flex;
     align-items:center;
     height: 650px;
+    justify-content: center;
     /* background: yellow; */
+}
+
+.jose_cortos {
+  position: relative;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  /* background-color: red; */
 }
 
 iframe{
   margin: auto;
   padding-top: 10px;
+  overflow: hidden;
+  margin: 0;
 }
 
 footer {
@@ -179,4 +242,54 @@ footer {
   position: relative;
   /* height: 100px; */
   background-color: #cbcbcb ;
+}
+
+.tittle_cortos {
+  position: relative;
+  height: 50px;
+  background-image: url("../public/LETRAS-CORTOS.png");
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.video_corto_tittle {
+  position: relative;
+  background-image: url("../public/TITULOS1.png");
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+}
+.video_corto_tittle_2 {
+  position: relative;
+  background-image: url("../public/TITULOS2.png");
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+}
+.video_corto_tittle_3 {
+  position: relative;
+  background-image: url("../public/TITULOS3.png");
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+}
+.video_corto_tittle_4 {
+  position: relative;
+  background-image: url("../public/TITULOS4.png");
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+}
+.video_corto_tittle_5 {
+  position: relative;
+  background-image: url("../public/TITULOS5.png");
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
 }
