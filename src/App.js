@@ -10,6 +10,8 @@ import {
 } from "react-router-dom";
 import SideBar from "./component/sidebar";
 import { SocialIcon } from 'react-social-icons';
+import { Incoming } from './component/incoming';
+import { NewProject } from './component/newProject';
 
 function App() {
   return (
@@ -28,6 +30,10 @@ function App() {
             </Route>
             <Route path="/cortos" element={<Cortos></Cortos>}>
             </Route>
+            <Route path="/incoming" element={<NewProject></NewProject>}>
+            </Route>
+            <Route path="/us" element={<Incoming></Incoming>}>
+            </Route>
             {/* <Route path="/users">
               <Users />
             </Route>
@@ -39,7 +45,7 @@ function App() {
       </Router>
       <footer>
         <div className="social-icon">
-          <SocialIcon url="https://www.instagram.com/tabulands2020/"></SocialIcon>
+          <SocialIcon url="https://www.instagram.com/panoja.films"></SocialIcon>
         </div>
         <div className="social-icon">
           <SocialIcon url="https://www.youtube.com/channel/UCI3ytFpd0wEw_E9JAadLUZw"></SocialIcon>

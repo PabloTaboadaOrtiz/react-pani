@@ -5,14 +5,16 @@ import CarouselComponent from "./carousel.js";
 
 export default function Peliculas() {
     return (
-        <div className="content">
-        <div className="tittle"></div>
-        <div id="film">
-            <div className="caratula"></div>
-            <div className="sinopsis"></div>
+      <div className="content">
+        <div className="title-container">
+          <div className="tittle"></div>
         </div>
         <div id="pepe">
           <CarouselComponent />
+        </div>
+        <div id="film">
+            <div className="caratula"></div>
+            <div className="sinopsis"></div>
         </div>
         <div className="film-container">
           <div className="film_tittle"></div>
