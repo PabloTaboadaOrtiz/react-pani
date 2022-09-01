@@ -34,6 +34,49 @@ header {
     overflow: auto;
 }
 
+.tittle {
+  position: relative;
+  height: 50px;
+  background-image: url("../public/LETRAS.png");
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#film {
+  position: relative;
+  display: flex;    /* background: red; */
+  height: 400px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #cbcbcb;
+  padding-bottom: 4px;
+}
+
+.caratula {
+  background-image: url("../public/CARATULA.png");
+  background-size: 100% 100%;
+  width: 35%;
+  height: 400px;
+  /* background-size: 30% 30%; */
+
+  /* background: black; */
+}
+
+.sinopsis {
+  background-image: url("../public/SINOPSIS.png");
+  background-size: 100% 100%;
+  /* background-color: brown; */
+
+  height: 400px;
+  width: 65%;
+  /* background: black; */
+
+  /* background: yellow; */
+}
+
+
+
 /* Individual item */
 .bm-item {
     display: inline-block;
@@ -100,14 +143,6 @@ header {
   background: rgba(0, 0, 0, 0.3);
 }
 
-.tittle {
-    position: relative;
-    height: 50px;
-    background-image: url("../public/LETRAS.png");
-    background-size: 30% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 .title-us {
     position: relative;
     height: 50px;
@@ -151,15 +186,6 @@ header {
   margin-top: 15px;
 }
 
-#film {
-    position: relative;
-    display: flex;    /* background: red; */
-    height: 400px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background: #cbcbcb;
-    padding-bottom: 4px;
-}
 
 .cortos_card {
   position: relative;
@@ -177,15 +203,7 @@ header {
   padding-right: 5%;
   background-color: #949484;
 }
-.caratula {
-    background-image: url("../public/CARATULA.png");
-    background-size: 100% 100%;
-    width: 35%;
-    height: 400px;
-    /* background-size: 30% 30%; */
 
-    /* background: black; */
-}
 .caratula_corto {
   background-image: url("../public/CARATULA1.png");
   background-size: 100% 100%;
@@ -221,30 +239,25 @@ header {
   width: 55%;
   /* background-color: #cbcbcb; */
 }
-.sinopsis {
-    background-image: url("../public/SINOPSIS.png");
-    background-size: 100% 100%;
-    /* background-color: brown; */
 
-    height: 400px;
-    width: 65%;
-    /* background: black; */
-
-    /* background: yellow; */
-}
 
 #pepe {
     position: relative;
     background-color: #cbcbcb;
   }
   
-  #jose {
+#jose {
     position: relative;
     display: flex;
     align-items:center;
     height: 650px;
     justify-content: center;
     /* background: yellow; */
+}
+
+.iframe {
+  width: 80%;
+  height: 590px
 }
 
 .jose_cortos {
@@ -366,4 +379,277 @@ footer {
 .container-contact{
   display: flex;
   justify-content: center;
+}
+
+.iframe-corto {
+  width: 500px;
+  height: 270px;
+}
+
+@media only screen and (max-width: 500px) {
+
+  #page-wrap {
+    text-align: center;
+    background-image: url("../public/ENCABEZADO.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    height: 100px;
+    /* Prevent sidebar from showing a scrollbar on page */
+    /* overflow: auto; */
+    /* background-color: red; */
+  }
+  header {
+    height: 100px;
+    background-color: white;
+  }
+
+  .tittle {
+    position: relative;
+    height: 30px;
+    background-image: url("../public/LETRAS.png");
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #film {
+    position: relative;
+    display: flex;    /* background: red; */
+    height: 190px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #cbcbcb;
+    padding-bottom: 4px;
+  }
+
+  .caratula {
+    background-image: url("../public/CARATULA.png");
+    background-size: 100% 100%;
+    width: 35%;
+    height: 190px;
+    /* background-size: 30% 30%; */
+  
+    /* background: black; */
+  }
+  .sinopsis {
+    background-image: url("../public/SINOPSIS.png");
+    background-size: 100% 100%;
+    /* background-color: brown; */
+
+    height: 190px;
+    width: 65%;
+    /* background: black; */
+
+    /* background: yellow; */
+  }
+  .film_tittle {
+    position: relative;
+    height: 50px;
+    background-image: url("../public/LETRAS_COMPLETA_PELICULA.png");
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 8px;
+  }
+
+  #jose {
+    position: relative;
+    display: flex;
+    align-items:center;
+    height: 400px;
+    justify-content: center;
+    /* background: yellow; */
+  }
+  .iframe {
+    width: 80%;
+    height: 390px
+  }
+  .bm-burger-button {
+    position: fixed;
+    margin-left: 81%;
+    width: 22px;
+    height: 15px;
+    left: 41px;
+    top: 18px;
+  }
+  .tittle_cortos {
+    position: relative;
+    height: 30px;
+    background-image: url("../public/LETRAS-CORTOS.png");
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .title-new {
+    position: relative;
+    height: 30px;
+    background-image: url("../public/LETRAS_NEW.png");
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .title-us {
+    position: relative;
+    height: 30px;
+    background-image: url("../public/LETRAS_US.png");
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .sub-title-new {
+    margin-top: 20px;
+    position: relative;
+    height: 18px;
+    background-image: url("../public/TITULO_NEW.png");
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .portada-title-new {
+    position: relative;
+    height: 380px;
+    background-image: url("../public/PORTADA_NEW.jpg");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .cortos_card {
+    position: relative;
+    display: flex;    /* background: red; */
+    height: 150px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #cbcbcb;
+  }
+  .cortos_card_1 {
+    position: relative;
+    display: flex;    /* background: red; */
+    height: 150px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #949484;
+  }
+  .caratula_corto {
+    background-image: url("../public/CARATULA1.png");
+    background-size: 100% 100%;
+    width: 30%;
+    height: 150px;
+  }
+
+  .caratula_corto_2 {
+    background-image: url("../public/CARATULA2.png");
+    background-size: 100% 100%;
+    width: 30%;
+    height: 150px;
+  }
+
+  .caratula_corto_3 {
+    background-image: url("../public/CARATULA3.png");
+    background-size: 100% 100%;
+    width: 30%;
+    height: 150px;
+  }
+
+  .caratula_corto_4 {
+    background-image: url("../public/CARATULA4.png");
+    background-size: 100% 100%;
+    width: 30%;
+    height: 150px;
+  }
+  .caratula_corto_5 {
+    background-image: url("../public/CARATULA5.png");
+    background-size: 100% 100%;
+    width: 30%;
+    height: 150px;
+  }
+
+  .video_corto {
+    height: 150px;
+    width: 75%;
+    /* background-color: #cbcbcb; */
+  }
+
+  .iframe-corto {
+    width: 230px;
+    height: 110px;
+  }
+
+  .video_corto_tittle {
+    position: relative;
+    background-image: url("../public/TITULOS1.png");
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 19px;
+  }
+
+  .video_corto_tittle_2 {
+    position: relative;
+    background-image: url("../public/TITULOS2.png");
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 19px;
+  }
+
+  .video_corto_tittle_3 {
+    position: relative;
+    background-image: url("../public/TITULOS3.png");
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 19px;
+  }
+
+  .video_corto_tittle_4 {
+    position: relative;
+    background-image: url("../public/TITULOS4.png");
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 19px;
+  }
+  .video_corto_tittle_5 {
+    position: relative;
+    background-image: url("../public/TITULOS5.png");
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 19px;
+  }
+
+  .img-us {
+    height: 90px;
+    width: 70px;
+  }
+  .img-new {
+    height: 100px;
+    width: 90px;
+  }
+
+  .container-us {
+    background-image: url("../public/TEXTO.png");
+    background-size: 100% 100%;
+    height: 500px;
+  }
+
+  .img-container-us {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 5px;
+    margin-left: 5px;
+    padding-top: 15px;
+  }
+/* 
+  .none {
+    display: none;
+  } */
+  
 }

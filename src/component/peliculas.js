@@ -19,7 +19,7 @@ export default function Peliculas() {
         <div className="film-container">
           <div className="film_tittle"></div>
           <div id="jose">
-            <iframe width="80%" height="590" src="https://www.youtube.com/embed/purCfHQ5APY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className="iframe"  src="https://www.youtube.com/embed/purCfHQ5APY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>

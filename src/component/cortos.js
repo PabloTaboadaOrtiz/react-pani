@@ -12,7 +12,7 @@ export default function Cortos() {
                 <div className="video_corto">
                     <div className="video_corto_tittle"></div>
                     <div className="jose_cortos">
-                    <iframe width="500" height="270" src="https://www.youtube.com/embed/7EX5GstZ3mE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                    <iframe className="iframe-corto" src="https://www.youtube.com/embed/7EX5GstZ3mE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
                 </div>
             </div>
             <br></br>
@@ -21,7 +21,7 @@ export default function Cortos() {
                 <div className="video_corto">
                     <div className="video_corto_tittle_2"></div>
                     <div className="jose_cortos">
-                        <iframe width="500" height="270" src="https://www.youtube.com/embed/mPxpRqWCo_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className="iframe-corto" src="https://www.youtube.com/embed/mPxpRqWCo_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@ export default function Cortos() {
                 <div className="video_corto">
                     <div className="video_corto_tittle_3"></div>
                     <div className="jose_cortos">
-                        <iframe width="500" height="270" src="https://www.youtube.com/embed/qzEf31RHfrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className="iframe-corto" src="https://www.youtube.com/embed/qzEf31RHfrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                      </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ export default function Cortos() {
                 <div className="video_corto">
                     <div className="video_corto_tittle_4"></div>
                     <div className="jose_cortos">
-                        <iframe width="500" height="270" src="https://www.youtube.com/embed/FsLGxsQGpvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className="iframe-corto" width="500" height="270" src="https://www.youtube.com/embed/FsLGxsQGpvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@ export default function Cortos() {
                 <div className="video_corto">
                     <div className="video_corto_tittle_5"></div>
                     <div className="jose_cortos">
-                        <iframe width="500" height="270" src="https://www.youtube.com/embed/roj5IaZLne8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className="iframe-corto" width="500" height="270" src="https://www.youtube.com/embed/roj5IaZLne8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
