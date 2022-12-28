@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Incoming = () => {
     return (
-        <div className="content">
+        <div className="content_incoming">
             <div className="title-us"></div>
             <div className="container-us">
             <div className="img-container-us">

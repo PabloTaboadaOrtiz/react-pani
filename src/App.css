@@ -5,7 +5,7 @@ body {
 
 #App {
   font-family: sans-serif;
-  background-color: white;
+  /* background-color: black; */
   /* Give app full page to work with */
   height: 100vh;
 }
@@ -16,10 +16,18 @@ header {
 
 .content_corto {
   position: relative;
+  background-color: black;
 }
 .content {
-  /* background-color: black; */
+  background-color: black;
 }
+.content_new {
+  background-color: white;
+}
+.content_incoming {
+  background-color: white;
+}
+
 
 #page-wrap {
     /* position: fixed; */
@@ -158,6 +166,7 @@ header {
     background-size: 30% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: white;
 }
 .sub-title-new {
     margin-top: 20px;
@@ -193,6 +202,7 @@ header {
   height: 350px;
   padding-left: 5%;
   padding-right: 5%;
+  gap: 10px;
   background-color: #cbcbcb;
 }
 .cortos_card_1 {
@@ -201,6 +211,7 @@ header {
   height: 350px;
   padding-left: 5%;
   padding-right: 5%;
+  gap: 10px;
   background-color: #949484;
 }
 
@@ -252,6 +263,7 @@ header {
     align-items:center;
     height: 650px;
     justify-content: center;
+    margin-top: -30px;
     /* background: yellow; */
 }
 
@@ -278,14 +290,31 @@ iframe{
 footer {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content:center;
   height: 50px;
   padding-top: 20px;
   background-color: black;
 }
 
+.contact_container {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+}
+.contact_container p{
+  margin: auto 0;
+}
+
+.container_social {
+  display: flex;
+  justify-content:center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
 .social-icon {
-  margin-left: 20px;
+  margin: auto 0;
 }
 
 .film-container {
@@ -301,6 +330,7 @@ footer {
   background-size: 30% 100%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
 }
 
 .video_corto_tittle {
@@ -458,8 +488,9 @@ footer {
     position: relative;
     display: flex;
     align-items:center;
-    height: 400px;
+    height: 300px;
     justify-content: center;
+    margin-top: -30px;
     /* background: yellow; */
   }
   .iframe {
@@ -481,6 +512,7 @@ footer {
     background-size: 65% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: white;
   }
 
   .title-new {
@@ -490,6 +522,7 @@ footer {
     background-size: 65% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: white;
   }
 
   .title-us {
@@ -513,60 +546,60 @@ footer {
 
   .portada-title-new {
     position: relative;
-    height: 380px;
+    height: 285px;
     background-image: url("../public/PORTADA_NEW.jpg");
     background-size: 50% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 40px;
+  }
+
+  .new_image_container {
+    height: 55vh;
   }
 
   .cortos_card {
     position: relative;
     display: flex;    /* background: red; */
     height: 150px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2px;
+    padding-right: 3%;
     background-color: #cbcbcb;
   }
   .cortos_card_1 {
     position: relative;
     display: flex;    /* background: red; */
     height: 150px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2px;
+    padding-right: 3%;
     background-color: #949484;
   }
   .caratula_corto {
     background-image: url("../public/CARATULA1.png");
     background-size: 100% 100%;
-    width: 30%;
     height: 150px;
   }
 
   .caratula_corto_2 {
     background-image: url("../public/CARATULA2.png");
     background-size: 100% 100%;
-    width: 30%;
     height: 150px;
   }
 
   .caratula_corto_3 {
     background-image: url("../public/CARATULA3.png");
     background-size: 100% 100%;
-    width: 30%;
     height: 150px;
   }
 
   .caratula_corto_4 {
     background-image: url("../public/CARATULA4.png");
     background-size: 100% 100%;
-    width: 30%;
     height: 150px;
   }
   .caratula_corto_5 {
     background-image: url("../public/CARATULA5.png");
     background-size: 100% 100%;
-    width: 30%;
     height: 150px;
   }
 
@@ -597,6 +630,11 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     height: 19px;
+  }
+
+  .contact_container {  
+    font-size:x-small;
+    background-color: yellow;  
   }
 
   .video_corto_tittle_3 {
@@ -638,6 +676,11 @@ footer {
     background-image: url("../public/TEXTO.png");
     background-size: 100% 100%;
     height: 500px;
+  }
+
+  .iframe {
+    width: 90%;
+    height: 250px
   }
 
   .img-container-us {

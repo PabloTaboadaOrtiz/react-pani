@@ -43,12 +43,17 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <div className="contact_container">
+        <p>Ponte en contacto con nosotros: CONTACTO@PANOJAFILMS.COM</p>
+      </div>
       <footer>
-        <div className="social-icon">
-          <SocialIcon url="https://www.instagram.com/panoja.films"></SocialIcon>
-        </div>
-        <div className="social-icon">
-          <SocialIcon url="https://www.youtube.com/channel/UCI3ytFpd0wEw_E9JAadLUZw"></SocialIcon>
+        <div className="container_social">
+          <div className="social-icon">
+            <SocialIcon url="https://www.instagram.com/panoja.films"></SocialIcon>
+          </div>
+          <div className="social-icon">
+            <SocialIcon url="https://www.youtube.com/channel/UCI3ytFpd0wEw_E9JAadLUZw"></SocialIcon>
+          </div>
         </div>
       </footer>
     </div>
