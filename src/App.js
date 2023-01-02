@@ -44,7 +44,7 @@ function App() {
         </div>
       </Router>
       <div className="contact_container">
-        <p>Ponte en contacto con nosotros: CONTACTO@PANOJAFILMS.COM</p>
+        <p>Ponte en contacto con nosotros:  <a href="mailto:CONTACTO@PANOJAFILMS.COM?Subject=Información%20sobre%20panojafilms">CONTACTO@PANOJAFILMS.COM</a></p>
       </div>
       <footer>
         <div className="container_social">

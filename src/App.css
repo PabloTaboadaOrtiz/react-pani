@@ -8,6 +8,7 @@ body {
   /* background-color: black; */
   /* Give app full page to work with */
   height: 100vh;
+  background-color: black;
 }
 header {
   height: 200px;
@@ -22,7 +23,7 @@ header {
   background-color: black;
 }
 .content_new {
-  background-color: white;
+  /* background-color: white; */
 }
 .content_incoming {
   background-color: white;
@@ -180,7 +181,8 @@ header {
 .portada-title-new {
     position: relative;
     height: 600px;
-    background-image: url("../public/PORTADA_NEW.jpg");
+    background-image: url("../public/PORTADA SEUP WEB.jpg");
+    background-color: black;
     background-size: 40% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -546,16 +548,15 @@ footer {
 
   .portada-title-new {
     position: relative;
-    height: 285px;
-    background-image: url("../public/PORTADA_NEW.jpg");
-    background-size: 50% 100%;
+    background-image: url("../public/PORTADA SEUP WEB.jpg");
+    background-color: black;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-position: center;
-    margin: 40px;
   }
 
   .new_image_container {
-    height: 55vh;
+    height: 72vh;
   }
 
   .cortos_card {
